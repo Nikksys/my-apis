@@ -1,0 +1,40 @@
+.wheatherSection{
+  
+  font-family: "trebuchet ms";
+  list-style-type: none;
+  color: white;
+}
+
+.cityName{
+  text-align: center;
+}
+
+.cityName h3{
+  font-size: 3.3em;
+}
+
+.weatherInfo{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.weatherInfo p:nth-child(2){
+  font-size: 2.2em;
+}
+
+.weatherInfo li:nth-child(3){
+  font-size: 1.5em;
+}
+
+.sunIcon{
+  width: 65px;
+}
+
+.riseSet{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
