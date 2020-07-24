@@ -9,7 +9,7 @@ function Chuck (){
   
   
   const getCitation = () => {
-    fetch("http://api.icndb.com/jokes/random")
+    fetch("https://api.icndb.com/jokes/random")
      .then(reponse => reponse.json())
      .then(data => {
        setCitation(data.value.joke)

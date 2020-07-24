@@ -14,7 +14,7 @@ function Weather() {
   
   
   const getTemp = ( ) => {
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=Paris,FR&appid=${process.env.REACT_APP_WEATHER_KEY}&units=metric`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=Paris,FR&appid=${process.env.REACT_APP_WEATHER_KEY}&units=metric`)
     .then(resp => resp.json())
     .then(data => {
       
