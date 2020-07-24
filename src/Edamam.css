@@ -1,0 +1,22 @@
+.foodCell{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.foodLeft{
+  width: 63%;
+  padding: 0 50px;
+  
+}
+
+.foodLeft h3 {
+  
+  font-family: cursive;
+  font-size: 2rem;
+  
+}
+
+.SearchBar{
+  
+}

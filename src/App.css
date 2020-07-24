@@ -1,38 +1,116 @@
+body{
+  background: #ebecf0;
+}
+
 .App {
-  text-align: center;
+  margin: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex-d{
   display: flex;
-  flex-direction: column;
+}
+
+.navbar{
   align-items: center;
+  border-bottom: solid 2px #FF9200;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.menu{
+  list-style-type: none;
+  width: 290px;
+  justify-content: space-around;
+  font-weight: bold;
+  color: gray;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu a{
+  text-decoration: none;
+  color: #9B8A73;
+}
+
+li:nth-child(1) a:hover{
+  color: #FF9200;
+}
+li:nth-child(2) a:hover{
+  color: #FFAF45;
+}
+li:nth-child(3) a:hover{
+  color: #FF772C;
+}
+li:nth-child(4) a:hover{
+  color: #D27800;
+}
+li:nth-child(5) a:hover{
+  color: #B39600;
+}
+
+li a, h1 span{
+  transition: color .5s;
+}
+
+nav h1{
+  margin-right: 20px;
+}
+
+.title{
+  color: #FF9200;
+}
+
+.navbar h1{
+  font-family: "impact";
+  color: #9B8A73;
+}
+
+.intro-text{
+  font-style: italic;
+  font-size: 1.5rem;
+  max-width: 800px;
+  color: #9B8A73;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4em;
+}
+
+
+.api-section{
+  max-width: 950px;
+  border: solid 2px #9B8A73;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding: 1%; */
+}
+
+.section-title{
+  color: #9B8A73;
+}
+
+.la-fleche{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2em;
+}
+
+.openWeather{
+  background-image: url("./clearsky.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.section {
+  margin-bottom: 5em;
+}
+
+.edamamBgnd{
+    background-color: #ddccc2;
+    min-height: 500px;
+    background-image: url("./foodBackground.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px 100%;
+  
 }
